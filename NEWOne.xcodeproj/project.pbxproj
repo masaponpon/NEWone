@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073EDEB2203DF62A000153D9 /* cat8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073EDEAD203DF629000153D9 /* cat8.mp3 */; };
+		073EDEB3203DF62A000153D9 /* cat13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073EDEAE203DF629000153D9 /* cat13.mp3 */; };
+		073EDEB4203DF62A000153D9 /* cat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073EDEAF203DF62A000153D9 /* cat2.mp3 */; };
+		073EDEB5203DF62A000153D9 /* summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073EDEB0203DF62A000153D9 /* summer.mp3 */; };
+		073EDEB6203DF62A000153D9 /* cat4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 073EDEB1203DF62A000153D9 /* cat4.mp3 */; };
 		07F6015B203DD4B700C5514E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6015A203DD4B700C5514E /* AppDelegate.swift */; };
 		07F6015D203DD4B700C5514E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F6015C203DD4B700C5514E /* ViewController.swift */; };
 		07F60160203DD4B700C5514E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F6015E203DD4B700C5514E /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073EDEAD203DF629000153D9 /* cat8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cat8.mp3; path = ../../../../Downloads/cat8.mp3; sourceTree = "<group>"; };
+		073EDEAE203DF629000153D9 /* cat13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cat13.mp3; path = ../../../../Downloads/cat13.mp3; sourceTree = "<group>"; };
+		073EDEAF203DF62A000153D9 /* cat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cat2.mp3; path = ../../../../Downloads/cat2.mp3; sourceTree = "<group>"; };
+		073EDEB0203DF62A000153D9 /* summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = summer.mp3; path = ../../../../Downloads/summer.mp3; sourceTree = "<group>"; };
+		073EDEB1203DF62A000153D9 /* cat4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cat4.mp3; path = ../../../../Downloads/cat4.mp3; sourceTree = "<group>"; };
 		07F60157203DD4B700C5514E /* NEWOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEWOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F6015A203DD4B700C5514E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F6015C203DD4B700C5514E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +113,11 @@
 				07F60161203DD4B700C5514E /* Assets.xcassets */,
 				07F60163203DD4B700C5514E /* LaunchScreen.storyboard */,
 				07F60166203DD4B700C5514E /* Info.plist */,
+				073EDEAF203DF62A000153D9 /* cat2.mp3 */,
+				073EDEB1203DF62A000153D9 /* cat4.mp3 */,
+				073EDEAD203DF629000153D9 /* cat8.mp3 */,
+				073EDEAE203DF629000153D9 /* cat13.mp3 */,
+				073EDEB0203DF62A000153D9 /* summer.mp3 */,
 			);
 			path = NEWOne;
 			sourceTree = "<group>";
@@ -232,9 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073EDEB5203DF62A000153D9 /* summer.mp3 in Resources */,
 				07F60165203DD4B700C5514E /* LaunchScreen.storyboard in Resources */,
+				073EDEB6203DF62A000153D9 /* cat4.mp3 in Resources */,
 				07F60162203DD4B700C5514E /* Assets.xcassets in Resources */,
+				073EDEB4203DF62A000153D9 /* cat2.mp3 in Resources */,
+				073EDEB2203DF62A000153D9 /* cat8.mp3 in Resources */,
 				07F60160203DD4B700C5514E /* Main.storyboard in Resources */,
+				073EDEB3203DF62A000153D9 /* cat13.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,10 +445,10 @@
 		07F60180203DD4B700C5514E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGLTX787HN;
 				INFOPLIST_FILE = NEWOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karinton.NEWOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,10 +460,10 @@
 		07F60181203DD4B700C5514E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CGLTX787HN;
 				INFOPLIST_FILE = NEWOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karinton.NEWOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
