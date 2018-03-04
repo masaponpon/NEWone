@@ -3,7 +3,7 @@
 //  NEWOneUITests
 //
 //  Created by masapon on 2018/02/22.
-//  Copyright © 2018年 karinton. All rights reserved.
+//  Copyright © 2018年 masaya.ishigami . All rights reserved.
 //
 
 import XCTest
